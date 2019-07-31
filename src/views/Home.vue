@@ -5,14 +5,11 @@
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
+<script lang="coffee">
+# @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
+export default
   name: 'home',
-  components: {
+  components:
     HelloWorld
-  }
-}
 </script>
